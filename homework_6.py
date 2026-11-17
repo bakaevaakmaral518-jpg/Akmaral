@@ -20,3 +20,5 @@ class Mutant:
 
     def superpower(self):
         return "Летаю и стреляю лазерами из глаз"
+
+    ahksdgak
