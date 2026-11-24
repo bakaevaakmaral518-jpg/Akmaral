@@ -1,0 +1,4 @@
+__pycache__
+.idea
+lessons/database.db
+homeworks/books.db

@@ -17,10 +17,7 @@ def create_table():
 
 def insert_books(books):
     for book in books:
-        connection.execute(
-            "INSERT INTO books VALUES (?, ?, ?, ?, ?, ?)",
-        book
-        )
+        connection.execute("INSERT INTO books VALUES (?, ?, ?, ?, ?, ?)", book)
         connection.commit()
 
 if __name__ == '__main__':
